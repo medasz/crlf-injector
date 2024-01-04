@@ -6,10 +6,10 @@ Author: [Rudra Sarkar](https://twitter.com/rudr4_sarkar)
 Disclaimer: I am not responsible for any damage done using this tool. This tool should only be used for educational purposes and for penetration testing.
 
 ### Compatibility:
-* Any platform using Python 2.7
+* Any platform using Python 3.11
 
 ### Requirements:
-* Python 2.7
+* Python 3.11
 * Modules: requests
 
 ### Install Requests Modules:
@@ -30,8 +30,6 @@ e.g $ python crlf.py mail.ru.list /%0aevil-here:malicious_cookie1
 
 ### Process:
  
-![Process](https://raw.githubusercontent.com/rudSarkar/crlf-injector/master/process.png)
+![Process](https://raw.githubusercontent.com/medasz/crlf-injector/master/process.png)
  
 Regards!
-
-[Rudra Sarkar](https://twitter.com/rudr4_sarkar)
