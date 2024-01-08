@@ -53,7 +53,7 @@ with open(file) as f:
         try:
             line2 = line.strip()
             data = 'http://' + line2 + payload
-            response = requests.get(data)
+            response = requests.get(data, allow_redirects=False)
 
             try:
                 time.sleep(2)
